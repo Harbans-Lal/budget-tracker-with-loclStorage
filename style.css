@@ -1,0 +1,156 @@
+/* Forth css start here>>>>>>>>>>>>>>>>>>>>>>>>>>>>.... */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f5ff; /* Sky Blue Background */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-container {
+    margin-bottom: 20px;
+  }
+  
+  .header-container h1, .header-container h4 {
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Form Styles */
+  form {
+    background-color: #f0f8ff; /* Light Sky Blue */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input[type="number"],
+  .form-group input[type="date"],
+  .form-group select {
+    width: calc(100% - 10px);
+    padding: 10px;
+    border: 1px solid #a9a9a9; /* Navy Border */
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%237F7F7F' d='M6 8L0 0h12z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+    background-size: 8px;
+  }
+  
+  .form-group button {
+    padding: 12px 20px;
+    background-color: #4169e1; /* Royal Blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-group button:hover {
+    background-color: #1e90ff; /* Dodger Blue */
+  }
+  
+  /* Expense List Styles */
+  .expense-list {
+    margin-top: 30px;
+  }
+  
+  .expense-list h2 {
+    margin: 0 0 15px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Table Styles */
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f8ff; /* Light Sky Blue */
+    font-weight: bold;
+    color: #4169e1; /* Royal Blue */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+  tfoot td[colspan="4"] {
+    text-align: right;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+  
+    .form-group input[type="number"],
+    .form-group input[type="date"],
+    .form-group select {
+        width: 100%;
+    }
+  
+    .header-container h1 {
+        font-size: 28px;
+    }
+  
+    .header-container h4 {
+        font-size: 20px;
+    }
+  
+    .form-group button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+  
+    .expense-list h2 {
+        font-size: 20px;
+    }
+  }
+  
+  
+  
